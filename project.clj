@@ -1,5 +1,5 @@
 (defproject fourtytoo/amethyst "0.1.0-SNAPSHOT"
-  :description "A scheduler micro-service based on Qartz"
+  :description "A scheduler micro-service based on Quartz"
   :dependencies [[org.clojure/clojure "1.10.2"]
                  [cprop "0.1.17"]
                  [camel-snake-kebab "0.4.0"]
