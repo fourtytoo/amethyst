@@ -34,9 +34,10 @@ java -jar target/amethyst.jar
 
 The REST API will, by default, answer at `http://localhost:3000/api/...`. 
 
-There is a Swagger answering at `http://localhost:3000/docs`.  There,
-you should get most if not all the info you need to start using the
-API.
+Amethyst follows quite closely the Quartz library API.  If you are
+familiar with it you should be familiar with Amethyst as well.  There
+is a Swagger answering at `http://localhost:3000/docs`.  There, you
+should get most if not all the info you need to start using the API.
 
 
 ## Extension
