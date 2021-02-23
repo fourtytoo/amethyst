@@ -5,14 +5,11 @@ A scheduler micro-service based on Quartz and Clojure.
 
 ## Usage
 
-Amethyst can be used on its own or extended with additional job
-types.  Out of the box it support a handful of job types, possibly of
-limited use to your average project, but you are free to extend this
+Amethyst can be used on its own or extended with additional job types.
+Out of the box it supports a handful of job types, possibly of limited
+use to your average project, but you are free to extend this
 collection with the implementation of the org.quartz.Job interface.
-
-Once you implement the Job interface, you make it available in the
-config.edn file and Amethyst will be able to use it for you.  See
-below.
+See below.
 
 
 ### Run the application locally
@@ -45,8 +42,8 @@ API.
 ## Extension
 
 On its own, Amethyst doesn't implement a lot of job types.  There are
-two ways you can extend it to suit your needs.  First is to fork it an
-hack it, but this is probably the least elegant.  The second is to
+two ways you can extend it to suit your needs.  First is to fork it
+and hack it, but this is probably the least elegant.  The second is to
 include it as dependency in your project, write the relevant Job
 classes and make them available either in Amethyst's config.edn or
 register them with amethyst.scheduler/register-job-type.  At that
