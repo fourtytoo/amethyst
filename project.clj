@@ -1,4 +1,4 @@
-(defproject amethyst "0.1.0-SNAPSHOT"
+(defproject fourtytoo/amethyst "0.1.0-SNAPSHOT"
   :description "A scheduler micro-service based on Qartz"
   :dependencies [[org.clojure/clojure "1.10.2"]
                  [cprop "0.1.17"]
