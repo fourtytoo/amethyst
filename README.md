@@ -1,6 +1,7 @@
 # amethyst
 
-A scheduler micro-service based on Quartz and Clojure.
+A scheduler micro-service based on
+[Quartz](http://www.quartz-scheduler.org) written in Clojure.
 
 
 ## Usage
