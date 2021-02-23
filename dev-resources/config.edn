@@ -1,0 +1,7 @@
+{:rest {:port 3000}
+ :job-types {:email "amethyst.scheduler.EMailJob"
+             :log "amethyst.scheduler.LogJob"
+             :print "amethyst.scheduler.PrintJob"}
+ :smtp {:host "localhost"}
+ :email {:from "me@localhost"
+         :subject "message from Amethyst"}}

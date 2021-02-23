@@ -1,0 +1,9 @@
+*~
+/out/
+/target/
+/*-init.clj
+/*.log
+
+# Leiningen
+/.lein-*
+/.nrepl-port

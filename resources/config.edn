@@ -1,0 +1,8 @@
+{:rest {:port 3000} ; port number the scheduler API will be listening to
+ :job-types {:email "amethyst.scheduler.EMailJob"
+             :log "amethyst.scheduler.LogJob"
+             :print "amethyst.scheduler.PrintJob"}
+ :smtp {:host "localhost"}
+ :email {:from "me@localhost"
+         ;; this is the default if no subject is specified in the job
+         :subject "message from Amethyst"}}
