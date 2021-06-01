@@ -75,4 +75,4 @@ from your main function.
 
 ## License
 
-Copyright ©  Walter C. Pelissero <walter@pelissero.de>
+Copyright ©  Walter C. Pelissero
